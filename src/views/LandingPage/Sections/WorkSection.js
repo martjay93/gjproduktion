@@ -46,7 +46,7 @@ export default function WorkSection() {
           <h4 className={classes.description}>
             Skriv ett meddelande så återkommer jag så fort jag får möjlighet.
           </h4>
-          <form onSubmit={handleSubmit} name="kontakt">
+          <form onSubmit={handleSubmit} name="kontakt" target="_top">
             <GridContainer>
               <GridItem xs={12} sm={12} md={4}>
                 <CustomInput
