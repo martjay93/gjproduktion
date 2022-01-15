@@ -15,6 +15,7 @@ import ProjektSvartbacken from "views/ProjektPage/ProjektSvartbacken";
 import ProjektKnivsta from "views/ProjektPage/ProjektKnivsta";
 import TopNav from "./views/Components/TopNav";
 import Footer from "components/Footer/Footer.js";
+import ContactPage from "views/ContactPage/ContactPage";
 
 var hist = createBrowserHistory();
 
@@ -46,6 +47,7 @@ ReactDOM.render(
         )}
       />
       <Route path="/projekt" component={ProjektPage} />
+      <Route path="/kontakt" component={ContactPage} />
       <Route path="/" component={LandingPage} />
     </Switch>
   </Router>,
