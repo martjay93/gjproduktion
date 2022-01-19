@@ -10,6 +10,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles(styles);
 import ContactForm from "views/LandingPage/Sections/WorkSection";
+import ContactCard from "./ContactCard";
 
 export default function ContactPage() {
   const classes = useStyles();
@@ -24,6 +25,7 @@ export default function ContactPage() {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ContactForm />
+          <ContactCard />
         </div>
       </div>
       <Footer />
