@@ -9,6 +9,9 @@ const tabsStyle = {
   textCenter: {
     textAlign: "center",
   },
+  tabsmart: {
+    justifyContent: "center",
+  },
 };
 
 export default tabsStyle;

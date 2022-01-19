@@ -138,7 +138,7 @@ export default function LandingPage() {
                     tabIcon: Home,
                     tabContent: (
                       <GridContainer justify="center">
-                        <GridItem xs={12} sm={12} md={4}>
+                        <GridItem xs={12} sm={6} md={4}>
                           <img
                             alt="..."
                             src={knivsta1}
