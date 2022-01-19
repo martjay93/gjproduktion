@@ -15,6 +15,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { CloudDownload } from "@material-ui/icons";
 import Projekt from "@material-ui/icons/Collections";
 import Om from "@mui/icons-material/LightbulbOutlined";
+import ContactMailOutlinedIcon from "@mui/icons-material/ContactMailOutlined";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -60,6 +61,16 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <Om className={classes.icons} /> Om
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          component={Link}
+          to={"/kontakt"}
+          color="transparent"
+          className={classes.navLink}
+        >
+          <ContactMailOutlinedIcon className={classes.icons} /> Kontakt
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
